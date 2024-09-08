@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    
+    <style>
+      body {
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: bisque;
+        margin: 0;
+        padding: 0;
+      }
+
+      .kartu {
+        width: 90%;
+        max-width: 470px;
+        height: auto;
+        margin: auto;
+        background: linear-gradient(to bottom right, #ffffff, #f0f0f0); /* Gradien background */
+        margin-top: 50px;
+        overflow: hidden;
+        border-radius: 10px; /* Rounded corners */
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Soft shadow */
+        border: 1px solid #ddd; /* Subtle border */
+      }
+
+      .header {
+        display: flex;
+        align-items: center;
+        text-align: center;
+        font-size: 14px;
+        color: white;
+        background-color: rgb(31, 130, 12);
+        padding: 10px;
+      }
+      .header img {
+        width: 20%;
+        max-width: 80px;
+        height: auto;
+        margin-right: 10px;
+      }
+      .header h1 {
+        font-size: 14px; /* Increased font size for better visibility */
+      }
+      span {
+        color: gold;
+      }
+
+      .tanda {
+        text-align: center;
+        font-size: small;
+        color: white;
+        background-color: rgb(81, 192, 59);
+        margin: 0;
+        padding: 10px;
+        border-bottom: 2px solid white;
+      }
+
+      .tanda h2 {
+        margin: 0;
+        font-size: 16px; /* Increased font size */
+      }
+
+      .main {
+        margin: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+
+      .main img {
+        width: 80%;
+        max-width: 120px;
+        height: auto;
+        border: 2px solid black;
+        border-radius: 5px; /* Rounded corners for the image */
+        transition: transform 0.3s; /* Smooth hover effect */
+      }
+      .main img:hover {
+        transform: scale(1.05); /* Slightly enlarge the image on hover */
+      }
+
+      table {
+        width: 100%;
+        margin-top: 10px;
+        border-collapse: collapse; /* Collapse table borders */
+      }
+      th, td {
+        padding: 8px;
+        text-align: left;
+      }
+      th {
+        background-color: #f2f2f2; /* Light gray background for table headers */
+      }
+
+      .footer {
+        text-align: center;
+        color: white;
+        font-size: 10px; /* Adjusted font size */
+        background-color: rgb(81, 192, 59);
+        margin-top: 20px;
+        padding: 10px;
+        border-top: 2px solid white; /* Border at the top of the footer */
+      }
+    </style>
+  </head>
+  <body>
+    <div class="kartu">
+      <div class="header">
+        <img src="aset/LOGO AL-USTMANY.png" alt="" />
+        <h1>
+          PONDOK PESANTREN
+          <br />
+          <span>AL – USTMANY BAHRUL ULUM</span>
+          TAMBAKBERAS JOMBANG
+        </h1>
+      </div>
+      <div class="tanda">
+        <h2>KARTU TANDA SANTRI</h2>
+      </div>
+      <div class="main">
+        <img src="aset/DSC05867.JPG" alt="" />
+        <table>
+          <tr>
+            <th>Nama</th>
+            <td>:</td>
+            <td>Dani Firmansyah</td>
+          </tr>
+          <tr>
+            <th>TTL</th>
+            <td>:</td>
+            <td>Surabaya, 10 September 2006</td>
+          </tr>
+          <tr>
+            <th>Tahun Masuk</th>
+            <td>:</td>
+            <td>2020</td>
+          </tr>
+          <tr>
+            <th>Alamat</th>
+            <td>:</td>
+            <td>Surabaya</td>
+          </tr>
+        </table>
+      </div>
+      <div class="footer">
+        <h2>BERLAKU SELAMA MENJADI SANTRI</h2>
+      </div>
+    </div>
+  </body>
+</html>
